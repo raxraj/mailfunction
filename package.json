@@ -1,15 +1,31 @@
 {
-  "name": "gmail-mailer",
+  "name": "mail-function",
   "version": "1.0.0",
   "description": "Gmail Mailing Client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "raxraj",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
     "node-mailer": "^0.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raxraj/mailfunction.git"
+  },
+  "keywords": [
+    "mail-function",
+    "node-mailer",
+    "mail",
+    "email",
+    "nodemail"
+  ],
+  "bugs": {
+    "url": "https://github.com/raxraj/mailfunction/issues"
+  },
+  "homepage": "https://github.com/raxraj/mailfunction#readme"
 }

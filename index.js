@@ -80,6 +80,6 @@ async function sendMail(transporter, mail) {
 }
 
 module.exports = {
-    mailerInitialise = mailerInitialise,
-    sendMail = sendMail
+    mailerInitialise : mailerInitialise,
+    sendMail : sendMail
 }

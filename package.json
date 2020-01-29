@@ -1,5 +1,5 @@
 {
-  "name": "mail-function",
+  "name": "mailfunction",
   "version": "1.0.0",
   "description": "Gmail Mailing Client",
   "main": "index.js",

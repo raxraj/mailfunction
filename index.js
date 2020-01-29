@@ -79,4 +79,7 @@ async function sendMail(transporter, mail) {
     
 }
 
-sendMail(mailerInitialise({user: 'techathlon@ipec.org.in' , pass: '123456789@123'}),{to:['raj.fungus@gmail.com'],text:'THIS IS TEXT',from:'techathlon@ipec.org.in'})
+module.exports = {
+    mailerInitialise = mailerInitialise,
+    sendMail = sendMail
+}

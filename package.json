@@ -1,5 +1,5 @@
 {
-  "name": "mailfunction",
+  "name": "send-in-mail",
   "version": "1.0.0",
   "description": "Gmail Mailing Client",
   "main": "index.js",

@@ -1,0 +1,15 @@
+{
+  "name": "gmail-mailer",
+  "version": "1.0.0",
+  "description": "Gmail Mailing Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "node-mailer": "^0.1.1"
+  }
+}

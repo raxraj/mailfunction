@@ -70,7 +70,7 @@ async function sendMail(transporter, mail) {
             html: mail.html // html body
         });
 
-        console.log(chalk.greenBright(), info.messageId);
+        console.log(chalk.greenBright("Mail has been sent"), info.messageId);
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
     } catch (error) {
         console.log(chalk.red(error));
